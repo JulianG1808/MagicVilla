@@ -16,6 +16,11 @@ namespace MagicVilla_API
             //segundo metodo, en una sola linea
             CreateMap<Villa, VillaCreateDto>().ReverseMap();
             CreateMap<Villa, VillaUpdateDto>().ReverseMap();
+
+            CreateMap<NumberVilla, NumberVillaDto>().ReverseMap();
+            CreateMap<NumberVilla, NumberVillaCreateDto>().ReverseMap();
+            CreateMap<NumberVilla, NumberVillaUpdateDto>().ReverseMap();
+
         }
     }
 }
